@@ -10,29 +10,52 @@ h1 {
 
 }
 
-select {
-    display: block;
-    width: 100%;
-    border-radius: 4px;
-    padding: 10px;
-   
-    
+h2 {
+font-size: 30px;
+margin: 0 0 10px;
 }
-
-.city {
-    display: flex;
-    justify-content: space-between;
-}
-
-
 .container {
     background-color: white;
     margin: 0 auto;
     max-width: 600px ;
     padding: 20px;
+    box-shadow: 10px 10px 10px rgba(60, 66, 60, 0.3);
     border-radius: 10px;
+    
 }
+select {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    
+}
+
+.city {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+    padding-bottom:25px;
+}
+
+.time{
+    
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.time small {
+    font-size: 18px;
+vertical-align: middle;
+opacity: 0.7;
+}
+
+.date {
+opacity: 0.5;
+}
+
 
 footer {
     text-align: center;
+    padding: 20px;
 }
