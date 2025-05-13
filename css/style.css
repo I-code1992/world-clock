@@ -36,7 +36,12 @@ select {
     margin: 20px 0;
     justify-content: space-between;
     padding-bottom:25px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
+
+.city:last-child {
+    border: none;
+  }
 
 .time{
     
