@@ -1,3 +1,5 @@
+function updateTime(){
+
 //losangeles
 let losangelesDateElement =document.querySelector("#los-angeles .date");
 losangelesDateElement.innerHTML= moment().format("MMM Do YYYY");
@@ -25,4 +27,7 @@ let lisbonDateElement =document.querySelector("#lisbon .date");
 lisbonDateElement.innerHTML= moment().format("MMM Do YYYY");
 let lisbonTimeElement =document.querySelector("#lisbon .time");
 lisbonTime = moment().tz("Europe/Lisbon");
-lisbonTimeElement.innerHTML= lisbonTime.format("h:mm:ss [<small>]A[</small>]");
+lisbonTimeElement.innerHTML= lisbonTime.format("h:mm:ss [<small>]A[</small>]");}
+
+updateTime();
+setInterval(updateTime, 1000);
